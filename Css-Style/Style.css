@@ -1,0 +1,154 @@
+body{
+    background-color: black;
+}
+/* navbar section */
+.nav-style{
+    background-color: #000;
+}
+.myLogo{
+    font-weight: 700;
+    font-size: 2.2rem; 
+    font-family: "Segoe UI";
+    letter-spacing: .2px;
+    border: .2rem white solid; 
+    color: #fff; 
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px #fff, #fff 0px 0px 8px inset;
+    text-decoration: none;
+}
+.myLogo:hover{
+    background-color: #fff;
+    color: #000;
+    box-shadow: none;
+}
+.link-style{
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #fff; 
+    text-decoration: none;
+}
+.link-style:hover{
+    color: rgb(164, 164, 164);
+}
+/* showcase section */
+.btn-white:hover{
+    background-color: #000;
+    color: #fff;
+}
+.btn-black{
+    background-color: #000;
+    color: #fff;
+}
+.btn-black:hover{
+    background-color: #fff;
+    color: #000;
+    border: #000 solid 1px;
+}
+@media (min-width:1024px) {
+    .paragraph{
+        width: 26rem;
+    }
+}
+/* Skills section */
+.Skills-img{
+    height: 70px;
+    width: 70px;
+}
+.Skills-card:hover{
+    border-radius: 10px;
+    background-color: #111111;
+}
+/* Project section */
+.project-card{
+    background-color: #fff; 
+    border-radius: 15px;
+    box-shadow: 0px 0px 12px #fff;
+    transition: all 0.3s;
+}
+.project-card:hover{
+    transform: scale(1.03);
+    box-shadow: none;
+}
+.project-img{
+    /* border-radius: 15px 15px 0px 0px; */
+    border-radius: 15px;
+}
+.cardText{
+    font-size: .8rem;
+}
+.btn-white-card{
+    border-color: gray;
+    color: gray;
+}
+.btn-white-card:hover{
+    cursor: no-drop;
+    border-color: gray;
+    color: gray;
+}
+
+/* Service section */
+.service-card{
+    background-color: #fff; 
+    border-radius: 15px;
+    box-shadow: 0px 0px 12px #fff;
+    transition: all 0.3s;
+}
+.service-card:hover{
+    transform: scale(1.15);
+    box-shadow: none;
+}
+.quote-card{
+    background-color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px #fff;
+    transition: all 0.3s;
+}
+.quote-card:hover{
+    transform: scale(1.1);
+}
+/* Contact section */
+.input-style{
+    background-color: #000;
+    color: #fff;
+    border: .1px #707070 solid;
+}
+.input-style:focus{
+    border: 1px #fff solid;
+    background-color:#000000;
+    color: #fff;
+}
+.IconStyle{
+    transition: all 0.1s;
+}
+.IconStyle:hover{
+    transform: scale(1.15);
+    border: .001px #707070 solid;
+    border-radius: 5px;
+}
+.IconStyle{
+    height: 45px;
+    width: 45px;
+}
+.Contact-Link{
+    text-decoration: none;
+
+}
+/* .status{
+    animation: status 20s ease forwards;
+}
+@keyframes status{
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
+} */
